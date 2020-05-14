@@ -9,7 +9,8 @@ header.header{
     .container{
         display: flex;
         align-items: center;
-        width: 100%;//蓋掉預設container
+        width: 100%;//
+        max-width: 100%;//蓋掉預設container
         padding:  0 4.58%;
         @include phone(){
             justify-content: center;
